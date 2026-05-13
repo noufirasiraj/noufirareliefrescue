@@ -15,7 +15,7 @@ const AdminDashboard = () => {
     const fetchDashboardStats = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:4000/api/admin/dashboard",
+          "https://reliefrescue-backend.onrender.com/api/admin/dashboard",
           {
             headers: {
               Authorization: `Bearer ${token}`

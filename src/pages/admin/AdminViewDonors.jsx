@@ -13,7 +13,7 @@ const AdminViewDonors = () => {
   const fetchDonors = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:4000/api/admin/donors",
+        "https://reliefrescue-backend.onrender.com/api/admin/donors",
         {
           headers: {
             Authorization: `Bearer ${token}`

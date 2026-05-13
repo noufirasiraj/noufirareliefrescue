@@ -34,7 +34,7 @@ const AcceptedDonations = () => {
       const completeDonation = async (id) => {
       try {
         await axios.put(
-          `http://localhost:4000/api/ngo/donations/complete/${id}`,
+          `https://reliefrescue-backend.onrender.com/api/ngo/donations/complete/${id}`,
           {},
           {
             headers: {

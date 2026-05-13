@@ -13,7 +13,7 @@ const ManageDonations = () => {
   const fetchDonations = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:4000/api/admin/donations",
+        "https://reliefrescue-backend.onrender.com/api/admin/donations",
         {
           headers: {
             Authorization: `Bearer ${token}`

@@ -27,7 +27,7 @@ const DonorProfile = () => {
     const fetchProfile = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:4000/api/donor/profile",
+          "https://reliefrescue-backend.onrender.com/api/donor/profile",
           {
             headers: {
               Authorization: `Bearer ${token}`,

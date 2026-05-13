@@ -36,7 +36,7 @@ const ManageNGOs = () => {
   const approveNGO = async (id) => {
     try {
       await axios.put(
-        `http://localhost:4000/api/admin/ngos/approve/${id}`,
+        `https://reliefrescue-backend.onrender.com/api/admin/ngos/approve/${id}`,
         {},
         {
           headers: {

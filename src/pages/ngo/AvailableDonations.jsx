@@ -14,7 +14,7 @@ const AvailableDonations = () => {
   const fetchDonations = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:4000/api/ngo/donations/available",
+        "https://reliefrescue-backend.onrender.com/api/ngo/donations/available",
         {
           headers: {
             Authorization: `Bearer ${token}`
